@@ -9,8 +9,10 @@ void bfsolve(){}
 void solve(){bfsolve();}
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0); cout.tie(0); nhap(), solve();
+     ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0); int t = 1;
+    //cin >> t;
+    while(t--)nhap(), solve();
     return 0;
 }
 
