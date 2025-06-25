@@ -37,6 +37,7 @@ void homefix(){
 }
 
 void home(){
+     homefix();
      if (fopen(namein, "r")) {
         freopen(namein, "r", stdin);
         freopen(nameout, "w", stdout);
@@ -53,7 +54,6 @@ void solve(){bfsolve();
 
 int main(){
     fastio(); home();int t = 1;
-    //homefix();
     //cin >> t;
     while(t--)nhap(), solve();
     return 0;
